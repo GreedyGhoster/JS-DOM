@@ -5,16 +5,45 @@ body {
 .but {
   width: 6rem;
   height: 2rem;
+  border: 1px solid;
   background-color: bisque;
 }
 .card {
   width: 50rem;
   height: auto;
   margin: auto;
-  border: 2px solid;
+  border: 1px solid;
   margin-top: 1%;
   background-color: aquamarine;
 }
 .card-hidden {
+  display: none;
+}
+.list-group {
+  width: 25rem;
+  height: auto;
+  background-color: coral;
+  margin: auto;
+  border: 2px solid;
+  border-bottom: 1px solid;
+  display: flex;
+  flex-direction: column;
+}
+.list-header {
+  border-bottom: 1px solid;
+  width: auto;
+  text-align: center;
+  background-color: azure;
+}
+.list-header1 {
+  width: auto;
+  text-align: center;
+  background-color: azure;
+}
+.accordeon-body {
+  border-bottom: 1px solid;
+  background-color: cornsilk;
+}
+.list-content {
   display: none;
 }
