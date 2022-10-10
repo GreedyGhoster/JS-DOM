@@ -1,6 +1,7 @@
 body {
   background-color: lavender;
   text-align: center;
+  user-select: none;
 }
 .but {
   width: 6rem;
@@ -46,4 +47,33 @@ body {
 }
 .list-content {
   display: none;
+}
+.tabs-name {
+  width: 15%;
+  background-color: burlywood;
+  margin: auto;
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  border-right: none;
+}
+.header-tab {
+  width: 35%;
+  height: auto;
+  border-right: 1px solid;
+}
+.tab-content {
+  width: 35%;
+  height: 125px;
+  background-color: antiquewhite;
+  border: 1px solid;
+  margin: auto;
+  margin-top: 1%;
+  text-align: center;
+}
+.hidden-tab {
+  display: none;
+}
+.tab-p {
+  margin-bottom: 1rem;
 }

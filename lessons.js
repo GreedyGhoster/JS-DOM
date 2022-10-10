@@ -15,3 +15,15 @@ headers.forEach(function (items) {
     this.nextElementSibling.classList.toggle("list-content");
   });
 });
+// Tabs
+const tabHeaders = document.querySelectorAll("[data-tab]");
+const contentsTab = document.querySelectorAll("[data-tab-content]");
+tabHeaders.forEach(function (item) {
+  item.addEventListener("click", function () {
+    const tabContent = document.querySelector("#" + this.dataset.tab);
+    contentsTab.forEach(function (items) {
+      items.classList.add("hidden-tab");
+    });
+    tabContent.classList.remove("hidden-tab");
+  });
+});
