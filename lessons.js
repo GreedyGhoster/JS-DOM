@@ -1,4 +1,4 @@
-// open/close block -----------
+// open/close block ------------
 const button = document.querySelector("#button");
 const content = document.querySelector("#card");
 button.addEventListener("click", function () {
@@ -8,14 +8,14 @@ button.addEventListener("click", function () {
     button.textContent = "Close block";
   }
 });
-// accardeon -----------
+// accardeon ------------
 const headers = document.querySelectorAll("[data-name='accordeon-title']");
 headers.forEach(function (items) {
   items.addEventListener("click", function () {
     this.nextElementSibling.classList.toggle("list-content");
   });
 });
-// Tabs -----------
+// Tabs ------------
 const tabHeaders = document.querySelectorAll("[data-tab]");
 const contentsTab = document.querySelectorAll("[data-tab-content]");
 tabHeaders.forEach(function (item) {
@@ -27,7 +27,7 @@ tabHeaders.forEach(function (item) {
     tabContent.classList.remove("hidden-tab");
   });
 });
-// Modal window -----------
+// Modal window ------------
 const buttonOpenModal = document.querySelector("[data-modal-open]");
 const ModalContent = document.querySelector("[data-modal-window]");
 const buttonCloseModal = document.querySelector("[data-modal-close]");
