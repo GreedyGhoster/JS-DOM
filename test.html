@@ -4,19 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>LearnJS</title>
     <link rel="stylesheet" href="./stylefortest.css" />
   </head>
   <body>
     <h1>Открыть/Закрыть блок</h1>
-    <button class="but but-change" id="button" type="button">Open block</button>
+    <button class="but" id="button" type="button">Open block</button>
     <div class="card card-hidden" id="card">
       <p>
-        Практический урок по языку программирования JavaScript. Научимся делать
-        аккордеоны, табы, модальные окна на JavaScript. Работа с DOM элементами
-        на странице, querySelector, nodeList, обход элементов, события по клику,
-        addEventListener, события по клику, eventPropagation. Примеры кода и
-        объяснения для новичков.
+        Он мне: «Внемли!» И я внимал, Что он с Земли Вчера сбежал, Решил: «Нырну
+        Я в гладь и тишь!» Но в тишину Без денег — шиш! Мол, прошмыгну Как мышь,
+        как вошь, Но в тишину Не прошмыгнешь! Вот это да, вот это да! Он повидал
+        печальный край, - В аду — бардак и лабуда, — И он опять — в наш грешный
+        рай.
       </p>
     </div>
     <h1>Аккардеон</h1>
@@ -69,7 +69,7 @@
       </div>
     </div>
     <h1>Табы</h1>
-    <div class="tabs-name">
+    <div class="tabs-area">
       <div class="header-tab" data-tab="tab-1">
         <h3>Tab 1</h3>
       </div>
@@ -83,26 +83,45 @@
     <div class="tab-content" data-tab-content id="tab-1">
       <h2>Tab 1</h2>
       <p class="tab-p">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, ducimus
-        fugit corrupti culpa libero quam mollitia magni pariatur, quos soluta
-        commodi porro voluptatem!
+        Дождались меня белые ночи Над простором густых островов… Снова смотрят
+        знакомые очи, И мелькает былое без слов.
       </p>
     </div>
     <div class="tab-content hidden-tab" data-tab-content id="tab-2">
       <h2>Tab 2</h2>
       <p class="tab-p">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, ducimus
-        fugit corrupti culpa libero quam mollitia magni pariatur, quos soluta
-        commodi porro voluptatem!
+        В царство времени всё я не верю, Силу сердца еще берегу, Роковую не
+        скрою потерю, Но сказать «навсегда» — не могу.
       </p>
     </div>
     <div class="tab-content hidden-tab" data-tab-content id="tab-3">
       <h2>Tab 3</h2>
       <p class="tab-p">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, ducimus
-        fugit corrupti culpa libero quam mollitia magni pariatur, quos soluta
-        commodi porro voluptatem!
+        При мерцании долгом заката, Пред минутной дремотою дня, Что погиб его
+        свет без возврата, В эту ночь не уверишь меня.
       </p>
+    </div>
+    <h1>Модальное окно</h1>
+    <div class="button-modal-area">
+      <div class="button-modal" data-modal-open="modal-1">
+        <h3>Modal 1</h3>
+      </div>
+      <div class="button-modal" data-modal-open="modal-2">
+        <h3>Modal 2</h3>
+      </div>
+      <div class="button-modal" data-modal-open="modal-3">
+        <h3>Modal 3</h3>
+      </div>
+    </div>
+    <div class="parentblock hidden-parentblock" data-modal-window id="modal-1">
+      <div class="modal-content">
+        <h2>Modal 1</h2>
+        <p>
+          У неё всё своё — и бельё, и жильё, Ну, а я ангажирую угол у тёти. Для
+          неё — всё свободное время моё, На неё я гляжу из окна, что напротив.
+        </p>
+        <button data-modal-close>Close</button>
+      </div>
     </div>
     <script src="./lessons.js"></script>
   </body>
