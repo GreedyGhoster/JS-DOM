@@ -59,6 +59,7 @@ allModals.forEach(function (fade) {
 });
 
 // Only 1 Modal window ------------
+
 // const buttonOpenModal = document.querySelector("[data-modal-open]");
 // const ModalContent = document.querySelector("[data-modal-window]");
 // const buttonCloseModal = document.querySelector("[data-modal-close]");
